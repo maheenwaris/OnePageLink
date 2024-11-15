@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.mainbg {
+    background-image: url('assets/Video/bg.mp4');
+    height: auto;
+}
+.bg {
+    position: fixed;
+}
+.content{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.content div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.contenthead{
+    padding: 3px;
+}
+.contentheading {
+    font-family: inherit;
+    margin: 0%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Noto Sans Mono', monospace;
+    text-shadow: 0 0 3px #fff;
+}
+.animatedText{
+    height: 5vh;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Noto Sans Mono', monospace;
+    text-shadow: 0 0 5px #fff;
+    width: 100%;
+}
+.contentbtn button{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: all .15s ease;
+    letter-spacing: .025em;
+    font-family: 'Noto Sans Mono', monospace;
+    text-shadow: 0 0 1px #fff;
+}
+.contentbtn button:hover{
+    color: black;
+    background-color: #fff;
+}
+
+/* Responsive */
+@media screen AND (max-width:700px){
+    .mainbg {
+        background-image: url('assets/Video/bg.mp4');
+        height: 100vh !important;
+    }
+}
